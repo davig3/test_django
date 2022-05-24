@@ -66,3 +66,7 @@ def editar(request, tarea_id):
         form = TareaForm(instance=tarea)
     context = {'form' : form}
     return render(request, 'todo/editar.html', context)
+
+
+
+    #Esto es una prueba xdxdxdxd 
